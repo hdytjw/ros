@@ -1,0 +1,20 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "catkin_make:debug", // 代表提示的描述性信息
+			"type": "shell",
+			"command": "catkin_make", // 需要的命令
+			"args": [
+				"--directory",
+				"/home/ros/ros_workspace/demo2_ws",
+				"-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+			],
+			"group": {"kind":"build","isDefault": true},
+			"presentation": {
+				"reveal": "always" // 代表是否输出信息
+			},
+			"problemMatcher": "$msCompile"
+		}
+	]
+}

@@ -1,0 +1,2 @@
+hello_vscode
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/ros/ros_workspace/demo2_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ros/ros_workspace/demo2_ws/install -G Unix Makefiles

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ros/ros_workspace/demo2_ws/install/setup.sh
